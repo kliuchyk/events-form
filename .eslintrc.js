@@ -17,9 +17,6 @@ module.exports = {
       },
     },
   },
-  env: {
-    'jest/globals': true,
-  },
   plugins: ['import'],
   extends: [
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from @typescript-eslint/eslint-plugin
